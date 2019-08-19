@@ -53,3 +53,5 @@ sayHello("Becode");   //affiche sur la console le msg
 | Ajax       | Java (JSP)      |
 | Angular    | ASP             |
 | React.js   | SQL, noSQL      |
+
+Pour savoir un peu plus sur le langage markdown, vous pouvez consulter la vidéo [Markdown Crash Course](https://www.youtube.com/watch?v=HUBNt18RFbo).
