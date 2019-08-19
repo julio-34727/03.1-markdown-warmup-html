@@ -12,13 +12,13 @@ Le langage markdown est beaucoup utilisé dans la plateforme Github.
 
 voici un exemple d'une image statique disponible en ligne (banque d'images aléatoires **placeimg**) en cliquant sur ce lien http://placeimg.com/300/300/animals/15.
 
-![chien tout blanc](http://placeimg.com/300/300/animals/15)
+![un chien](http://placeimg.com/300/300/animals/15)
 
 ### Image animée
 
 Une deuxième image animée (gif, stockée dans mon repo.)
 
-![chat gris qui danse](images/chat-gris.gif)
+![un chat gris qui danse](images/chat-gris.gif)
 
 ## Citations 
 
