@@ -1,6 +1,6 @@
 # Objectifs
 
-* Explorez le langage HTML
+* Explorer le langage HTML.
 * Comprendre le lien entre les deux langages de balisage markdown et HTML.
 
 # Instructions
