@@ -1,6 +1,6 @@
 # Flappy bird game
 
-[Preview Here](https://julio-34727.github.io/Cookie-cliker/)
+[Preview Here](https://julio-34727.github.io/Flappy-bird/)
 
 ## Contents
 
