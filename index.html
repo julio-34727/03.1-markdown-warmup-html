@@ -1,68 +1,25 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Petit intro en markdown</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Flappy bird game game" />
+    <title>Flappy bird Game</title>
+    <link rel="icon" href="assets/img/icon.png" type="image/png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Patrick+Hand|Sigmar+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
 <body>
-    <h1>Petit intro en markdown</h1>
-
-    <p>Le markdown est un langage de balisage comme le HTML mais il 
-        est très léger par rapport au HTML.</p>
-    <p>Nous allons illuster quelques exemples pour ajouter du contenu 
-        dans le langage markdown. Il s'agira principalement des images 
-        (statiques et animées), des citations courtes et longues, 
-        des bouts de code, des formules chimiques, des tableaux, 
-        des liens&hellip;</p>
-    <p>Le langage markdown est beaucoup utilisé dans la plateforme 
-        Github.</p>
-    
-    <h2>Des images</h2>
-
-    <h3>Image statique</h3>
-    <p>Voici un exemple d'une image statique disponible en ligne 
-        (banque d'images aléatoires <b>placeimg</b>) en cliquant sur 
-        ce lien <a href="http://placeimg.com/300/300/animals/15">
-            http://placeimg.com/300/300/animals/15</a>.</p>
-    <div><img src="http://placeimg.com/300/300/animals/15" 
-        alt="un animal"></div>
-    
-    <h3>Image animée</h3>
-    <p>Une deuxième image animée (gif, stockée dans mon repo.)</p>
-    <div><img src="images/chat-gris.gif" 
-        alt="un chat gris qui danse"></div>
-        
-    <h2>Citations</h2>
-    <blockquote>Un langage qui n'affecte pas votre manière de penser 
-        la programmation ne vaut pas la peine d'être connu.&ndash; 
-        <b>Alan Jay Perlis</b></blockquote> 
-        
-    <h2>Bout de code</h2> 
-    <p>L'affichage d'un texte en PHP se fait via la commande <i>echo</i>
-        comme ceci : 
-    <code class="code-php">&lt;php echo "Bonjour les becoders!";
-        ?&gt;</code>.</p>
-    <p>Voici un autre exemple de bout de code en JavaScript :</p>
-    <pre><code class="code-js">
-    let name = "julio";   //déclaration d'une variable
-    alert("Hello "+name); //popup avec message
-            
-    //fonction sayHello qui prend le nom 'name' en entrée
-    const sayHello = (name) => console.log(`Hello {name}`);
-    sayHello("Becode");   //affiche sur la console le msg</code></pre>
-
-    <h2>Formules</h2>
-    <ul>
-        <li>H<sub>2</sub>O : eau  (<i>p</i>H=7)</li>
-        <li>CH<sub>3</sub>COOH<sup>&ndash;</sup> : 
-            ion acétate (<i>p</i>H=4,8)</li>
-    </ul>
-
-    <p>Pour savoir un peu plus sur le langage markdown, vous pouvez 
-        consulter la vidéo 
-        <a href="https://www.youtube.com/watch?v=HUBNt18RFbo" 
-        target="blank">Markdown Crash Course</a>.</p>
+    <div class="score"></div>
+    <div class="game">
+        <div class="gameArea"></div>
+        <div class="startScreen">Press Start</div> <span class="gameMessage hide"></span> </div>
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>

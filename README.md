@@ -1,11 +1,34 @@
-# Objectifs
+# Flappy bird game
 
-* Explorer le langage HTML.
-* Comprendre le lien entre les deux langages de balisage markdown et HTML.
+[Preview Here](https://julio-34727.github.io/Cookie-cliker/)
 
-# Instructions
+## Contents
 
-* Créer un dépôt (repo.) public sur Github **markdown-warmup-html**.
-* Créer un fichier ```index.html```.
-* Convertir le fichier  [markdown.md de l'exercice précédent](https://google.com)  en HTML dans le fichier ```index.html```.
-* Pousser le fichier HTML dans votre repo.
+- [Description](#Description)
+- [Technologies](#Technologies)
+  - [Front-end](#Front-end)
+- [Ressources](#Ressources)
+- [Contact](#Contact)
+
+### Description
+
+This website is based on the game [Flappy bird game](https://fr.wikipedia.org/wiki/Flappy_Bird).
+
+### Technologies
+
+#### Front-end
+
+- HTML5
+- CSS3 (grid layout, box model, pseudo-classes, media-queries...)
+- JavaScript (Vanilla JS) :
+  - Modular code (functions).
+  - events handling
+
+## Ressources
+
+- https://developer.mozilla.org/fr/
+- https://www.w3schools.com/
+
+## Contact
+
+- (<j.tusamba@gmail.com>)
